@@ -27,3 +27,10 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Component Screenshots
 
 You can find component screenshots in screenshots folder in root folder.
+<p><img src="/screenshots/screenshot1.JPG"></p>
+
+<p><img src="/screenshots/screenshot2.JPG"></p>
+
+<p><img src="/screenshots/screenshot3.JPG"></p>
+
+** If you wanted to check the test this component :** [click here](https://angular-efbhlg.stackblitz.io)
