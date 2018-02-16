@@ -1,0 +1,51 @@
+.dropdown-container {
+    position: relative;
+    display: inline-block;
+    margin: 16px;
+}
+
+.dropdown-container input {
+    padding: 8px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 200px;
+}
+
+.dropdown-container section {
+    position: absolute;
+    text-align: left;
+    left: 1px;
+    top: 37px;
+    width: 220px;
+    z-index: 99;
+    max-height: 240px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.dropdown-container section div {
+    width: inherit;
+    border: 1px solid #ccc;
+    background: #FFF;
+    padding: 8px;
+    cursor: pointer;
+    width: 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dropdown-container section div:hover {
+    background: #ccc;
+}
+
+.clear-option,
+.open-option {
+    position: relative;
+    right: 30px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #555;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

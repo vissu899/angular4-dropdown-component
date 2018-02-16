@@ -1,0 +1,8 @@
+<div class="dropdown-container">
+	<input type="text" [(ngModel)]="selectedValue" placeholder="Select Option" (click)="openOptions($event)" pattern="[a-zA-Z][a-zA-Z ]+">
+	<span class="clear-option" *ngIf="selectedValue" (click)="clearOptions()">X</span>
+	<span class="open-option" *ngIf="!selectedValue" (click)="openOptions($event)">&#9660;</span>
+	<section *ngIf="expandOptions">
+		<div *ngFor="let option of dropdownOptions | filterOptions: selectedValue" (click)="selectOption(option)">{{option.label}}</div>
+	</section>
+</div>
