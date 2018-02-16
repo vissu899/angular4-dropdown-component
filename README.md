@@ -1,5 +1,7 @@
 # Dropdown Component
 
+Dropdown component was implemented in Angular 4. It contains the features of the select option including filter and auto complete functionalities.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.6.
 
 ## Development server
